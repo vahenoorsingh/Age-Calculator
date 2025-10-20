@@ -10,7 +10,6 @@ const picker = datepicker('#my-date-input', {
     position: 'bl', // 'br' for bottom right (one of many options) // Example: Restrict selection to dates after Jan 1, 2023
     onSelect: (instance, date) => {
         // This function runs every time a date is selected
-        console.log(`Selected date is: ${date.toLocaleDateString()}`);
         selectedDate = date;
         luxonDate = DateTime.fromJSDate(selectedDate);
     },
