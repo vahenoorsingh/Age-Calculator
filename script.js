@@ -1,8 +1,8 @@
 const datepicker = require('js-datepicker');
 const { DateTime, Duration } = require('luxon');
 
-let luxonDate;
-let selectedDate;
+let selectedDate = new Date();
+let luxonDate = DateTime.fromJSDate(selectedDate);
 const ans = document.getElementById("answer");
 
 const picker = datepicker('#my-date-input', {
