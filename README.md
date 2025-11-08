@@ -3,5 +3,5 @@ This project is a web application designed to calculate a person's exact age in 
 ## Screenshot
 ![Screenshot](./Screenshot.png)
 ## How to run
-- First download or clone project to your desired folder/
+- First download or clone project to your desired folder.
 - Then open index.html.
